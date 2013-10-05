@@ -1,4 +1,4 @@
-!ipxe
+#!ipxe
 set smartos-build 20130822T211238Z
 set boot-url http://example.com/boot-isos
 
