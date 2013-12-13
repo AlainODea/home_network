@@ -1,12 +1,12 @@
 {
   "brand": "joyent",
-  "image_uuid": "0084dad6-05c1-11e3-9476-8f8320925eea",
-  "max_physical_memory": 1024,
-  "hostname": "chefserver01.alainodea.local",
+  "image_uuid": "e6f10814-a38d-11e2-8138-67b96e228c1e",
+  "max_physical_memory": 2048,
+  "hostname": "chef1.alainodea.local",
   "dns_domain": "alainodea.local",
   "resolvers": [
-    "208.67.222.222",
-    "208.67.220.220"
+    "192.168.2.2",
+    "192.168.2.3"
   ],
   "alias": "chefserver",
   "nics": [
