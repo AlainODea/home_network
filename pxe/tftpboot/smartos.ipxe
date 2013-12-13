@@ -35,13 +35,13 @@ exit
 
 ########## MENU ITEMS #######################
 :smartos
-kernel /smartos/${smartos-build}/i86pc/kernel/amd64/unix -v -B smartos=true,console=text
-initrd /smartos/${smartos-build}/i86pc/amd64/boot_archive
+kernel /smartos/${smartos-build}/platform/i86pc/kernel/amd64/unix -v -B smartos=true,console=text
+initrd /smartos/${smartos-build}/platform/i86pc/amd64/boot_archive
 boot
 
 :smartos-rescue
-kernel /smartos/${smartos-build}/i86pc/kernel/amd64/unix -v -B console=text,standalone=true,noimport=true,root_shadow='$5$2HOHRnK3$NvLlm.1KQBbB0WjoP7xcIwGnllhzp2HnT.mDO7DpxYA'
-initrd /smartos/${smartos-build}/i86pc/amd64/boot_archive
+kernel /smartos/${smartos-build}/platform/i86pc/kernel/amd64/unix -v -B console=text,standalone=true,noimport=true,root_shadow='$5$2HOHRnK3$NvLlm.1KQBbB0WjoP7xcIwGnllhzp2HnT.mDO7DpxYA'
+initrd /smartos/${smartos-build}/platform/i86pc/amd64/boot_archive
 boot
 
 goto start
