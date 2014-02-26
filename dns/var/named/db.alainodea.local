@@ -15,6 +15,8 @@ ns2            IN A 192.168.2.3
 ldap1          IN A 192.168.2.4
 ldap2          IN A 192.168.2.5
 chef1          IN A 192.168.2.6
+00-24-e8-46-70-fd IN A 192.168.2.7
+build          IN A 192.168.2.9
 appletv        IN A 192.168.2.10
 wii            IN A 192.168.2.11
 ps3            IN A 192.168.2.12
@@ -31,3 +33,4 @@ tomcat01       IN A 192.168.2.22
 wiiu           IN A 192.168.2.23
 smartos01      IN CNAME top-t3500
 smartos02      IN CNAME bottom-t3500
+smartos03      IN CNAME 00-24-e8-46-70-fd

@@ -2,18 +2,18 @@
   "brand": "joyent",
   "image_uuid": "4aec529c-55f9-11e3-868e-a37707fcbe86",
   "max_physical_memory": 512,
-  "hostname": "tomcat01.alainodea.local",
+  "hostname": "build.alainodea.local",
   "dns_domain": "alainodea.local",
   "resolvers": [
     "192.168.2.2",
     "192.168.2.3"
   ],
-  "alias": "tomcat",
+  "alias": "build",
   "nics": [
     {
       "nic_tag": "external",
       "gateway": "192.168.2.1",
-      "ip": "192.168.2.22",
+      "ip": "192.168.2.8",
       "netmask": "255.255.255.0"
     }
   ],
