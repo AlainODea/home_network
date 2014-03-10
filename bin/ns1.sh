@@ -1,7 +1,6 @@
 #!/bin/bash
 ssh root@smartos01 'vmadm create' < machines/ns1.json
 ssh root@ns1 -t '
-  pkg_add -u pkg_install
   pkgin -f -y update
   pkgin -f -y upgrade
   pkgin -y install isc-dhcpd bind tftp-hpa
@@ -31,6 +30,6 @@ scp -r dns/* root@ns1:/
 scp -r ns1/* root@ns1:/
 scp -r pxe/* root@ns1:/
 ssh root@ns1 '
-  svccfg import /opt/local/share/smf/isc-dhcpd/manifest.xml
-  svcadm enable dhcpd
-  svcadm enable dns/server'
+  svccfg import /opt/local/lib/svc/manifest/isc-dhcpd.xml
+  svcadm enable svc:/pkgsrc/isc-dhcpd:default
+  svcadm enable svc:/pkgsrc/bind:default'
