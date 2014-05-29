@@ -1,7 +1,8 @@
 {
   "brand": "joyent",
-  "image_uuid": "7241e29a-a07b-11e3-9a5c-53df1db058c4",
-  "max_physical_memory": 512,
+  "image_uuid": "caac17a4-d512-11e3-9d41-b756aebcb18f",
+  "max_physical_memory": 2048,
+  "max_swap": 4096,
   "hostname": "ghc-builder-x86-smartos.alainodea.local",
   "dns_domain": "alainodea.local",
   "resolvers": [
