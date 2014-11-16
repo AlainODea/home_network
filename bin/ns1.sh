@@ -12,7 +12,7 @@ ssh root@ns1 -t '
   inetconv -i /tmp/tftp.inetd -o /tmp
   mkdir /tftpboot
   mkdir /tftpboot/smartos
-  curl "https://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/platform-latest.tgz" > /tftpboot/platform-latest.tgz
+  curl "http://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/platform-latest.tgz" > /tftpboot/platform-latest.tgz
   pushd /tftpboot/smartos
   zcat /tftpboot/platform-latest.tgz | tar x
   directory=$(ls | grep platform- | sort | tail -n1)

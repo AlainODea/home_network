@@ -1,0 +1,25 @@
+{
+  "brand": "joyent",
+  "image_uuid": "8639203c-d515-11e3-9571-5bf3a74f354f",
+  "max_physical_memory": 512,
+  "max_swap": 1024,
+  "hostname": "blog.alainodea.local",
+  "dns_domain": "alainodea.local",
+  "resolvers": [
+    "192.168.2.2",
+    "192.168.2.3"
+  ],
+  "alias": "ghc-builder",
+  "nics": [
+    {
+      "nic_tag": "external",
+      "gateway": "192.168.2.1",
+      "ip": "192.168.2.32",
+      "netmask": "255.255.255.0"
+    }
+  ],
+  "customer_metadata": {
+    "root_authorized_keys":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJeY2YtHbPYHPlv/I7Y62IVPUJs446VJ2nOmRyXlYODmw4xXKpj5t4/BdhjBuN+uW58vuVELOOmWVfBPIzteX4VmpceeABLXV79ZQNa62bhbK0Co2AftmxGorwPuIN7oyfrw/GI4PEXjd2YdS8neES6gVzpHooDaayQThaXsbrCbIu26aunj23nbHIWUrvk02k9vCVrYuM4onAhsHLW9PowABD72icDOqVekpxpMxPphSwPHMmm6fwZ3kw7YYSSvb1yyBgmnCMFlI1JsJ1bWx5jSdIcH2u3+9zrLuIoGhJ+juun9To6n70zAYdkRhuWS9aaJW/w7mzP/MyADU0qDwUYQKoD/0n1i3eknwPsvJ2fhCiBqenStxMg8vaqmg3nJHjqv+d/Wekk0XWjWMvDLHr0tMBjMpcX/TSItvbj8XylZBZ/m6tjyjEFjlGFOpsFXSpchLQG15b0NfR4hhC4JuKqcJXo5c4wuf7ay7XTo+cCO/DIO0Id6YjxGiXHlq98HGQBq+mh2q2RC4J5r8AjYhRi7Eeo7ynyE97nVSoe3jYTSUJfgFih6rIjecvfUiv/FG+DtKN5wTqueyrFyQppmEm2lPZoHbC/+9KPkcl5wG5ycDZuXXC1cULVpK31oCW5G0BkxaUTc5ZrqTuCAB4PvBfh2PsCCt8U/Vd5AW2kmLdlw== alain.odea@gmail.com-2014-05-06",
+    "user-script" : "/usr/sbin/mdata-get root_authorized_keys > ~root/.ssh/authorized_keys ; /usr/sbin/mdata-get root_authorized_keys > ~admin/.ssh/authorized_keys"
+  }
+}
