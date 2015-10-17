@@ -1,6 +1,6 @@
 #!/bin/bash
-ssh root@smartos03 'vmadm create' < machines/ns2.json
-ssh root@ns2 -t '
+ssh root@smartos01 'vmadm create' < machines/ns2.json
+ssh -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' root@ns2 -t '
   pkgin -f -y update
   pkgin -f -y upgrade
   pkgin -y install isc-dhcpd bind tftp-hpa
@@ -23,13 +23,16 @@ ssh root@ns2 -t '
   mv i86pc platform
   popd
   popd
+'
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r dhcp/* root@ns2:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r dns/* root@ns2:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r ns2/* root@ns2:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r pxe/* root@ns2:/
+ssh -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' root@ns2 '
+  release=$(ls /tftpboot/smartos | sort | tail -n1)
   cat /tftpboot/smartos.ipxe.tpl |
-    sed -e"s/\$release/$release/g" > /tftpboot/smartos.ipxe'
-scp -r dhcp/* root@ns2:/
-scp -r dns/* root@ns2:/
-scp -r ns2/* root@ns2:/
-scp -r pxe/* root@ns2:/
-ssh root@ns2 '
+    sed -e"s/\$release/$release/g" > /tftpboot/smartos.ipxe
   svccfg import /opt/local/lib/svc/manifest/isc-dhcpd.xml
   svcadm enable svc:/pkgsrc/isc-dhcpd:default
-  svcadm enable svc:/pkgsrc/bind:default'
+  svcadm enable svc:/pkgsrc/bind:default
+'

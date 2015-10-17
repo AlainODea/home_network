@@ -1,6 +1,6 @@
 #!/bin/bash
 ssh root@smartos01 'vmadm create' < machines/ns1.json
-ssh root@ns1 -t '
+ssh -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' root@ns1 -t '
   pkgin -f -y update
   pkgin -f -y upgrade
   pkgin -y install isc-dhcpd bind tftp-hpa
@@ -12,7 +12,7 @@ ssh root@ns1 -t '
   inetconv -i /tmp/tftp.inetd -o /tmp
   mkdir /tftpboot
   mkdir /tftpboot/smartos
-  curl "http://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/platform-latest.tgz" > /tftpboot/platform-latest.tgz
+  curl "https://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/platform-latest.tgz" > /tftpboot/platform-latest.tgz
   pushd /tftpboot/smartos
   zcat /tftpboot/platform-latest.tgz | tar x
   directory=$(ls | grep platform- | sort | tail -n1)
@@ -23,13 +23,16 @@ ssh root@ns1 -t '
   mv i86pc platform
   popd
   popd
+'
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r dhcp/* root@ns1:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r dns/* root@ns1:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r ns1/* root@ns1:/
+scp -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' -r pxe/* root@ns1:/
+ssh -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' root@ns1 '
+  release=$(ls /tftpboot/smartos | sort | tail -n1)
   cat /tftpboot/smartos.ipxe.tpl |
-    sed -e"s/\$release/$release/g" > /tftpboot/smartos.ipxe'
-scp -r dhcp/* root@ns1:/
-scp -r dns/* root@ns1:/
-scp -r ns1/* root@ns1:/
-scp -r pxe/* root@ns1:/
-ssh root@ns1 '
+    sed -e"s/\$release/$release/g" > /tftpboot/smartos.ipxe
   svccfg import /opt/local/lib/svc/manifest/isc-dhcpd.xml
   svcadm enable svc:/pkgsrc/isc-dhcpd:default
-  svcadm enable svc:/pkgsrc/bind:default'
+  svcadm enable svc:/pkgsrc/bind:default
+'
