@@ -28,7 +28,7 @@ claudia-iphone IN A 192.168.2.16
 alain-iphone   IN A 192.168.2.17
 alain-ipad     IN A 192.168.2.18
 claudia-ipad   IN A 192.168.2.19
-top-t3500      IN A 192.168.2.20
+b8-ac-6f-8f-3e-1b IN A 192.168.2.20
 bottom-t3500   IN A 192.168.2.21
 tomcat01       IN A 192.168.2.22
 wiiu           IN A 192.168.2.23
@@ -48,6 +48,6 @@ conor-odea-moto     IN A 192.168.2.36
 andrea-perchard-iphone     IN A 192.168.2.37
 claudia-iphone5s           IN A 192.168.2.38
 mary-ring-laptop           IN A 192.168.2.39
-smartos01      IN CNAME top-t3500
+smartos01      IN CNAME b8-ac-6f-8f-3e-1b
 smartos02      IN CNAME bottom-t3500
 smartos03      IN CNAME 00-24-e8-46-70-fd
