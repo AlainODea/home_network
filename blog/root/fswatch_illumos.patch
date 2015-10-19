@@ -1,0 +1,14 @@
+diff --git a/libfswatch/src/libfswatch/c++/inotify_monitor.cpp b/libfswatch/src/libfswatch/c++/inotify_monitor.cpp
+index f091c93..b1c2b27 100644
+--- a/libfswatch/src/libfswatch/c++/inotify_monitor.cpp
++++ b/libfswatch/src/libfswatch/c++/inotify_monitor.cpp
+@@ -20,6 +20,9 @@
+ #include "gettext_defs.h"
+ #include "inotify_monitor.hpp"
+ #include <limits.h>
++#ifdef __sun
++#  define NAME_MAX         255    /* # chars in a file name */
++#endif
+ #include <unistd.h>
+ #include <stdio.h>
+ #include <sstream>

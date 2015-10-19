@@ -1,6 +1,6 @@
 {
   "brand": "joyent",
-  "image_uuid": "8639203c-d515-11e3-9571-5bf3a74f354f",
+  "image_uuid": "9250f5a8-6e9c-11e5-9cdb-67fab8707bfd",
   "max_physical_memory": 512,
   "max_swap": 1024,
   "hostname": "blog.alainodea.local",
@@ -9,17 +9,17 @@
     "192.168.2.2",
     "192.168.2.3"
   ],
-  "alias": "ghc-builder",
+  "alias": "zotonic",
   "nics": [
     {
       "nic_tag": "external",
       "gateway": "192.168.2.1",
-      "ip": "192.168.2.32",
+      "ip": "192.168.2.8",
       "netmask": "255.255.255.0"
     }
   ],
   "customer_metadata": {
-    "root_authorized_keys":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJeY2YtHbPYHPlv/I7Y62IVPUJs446VJ2nOmRyXlYODmw4xXKpj5t4/BdhjBuN+uW58vuVELOOmWVfBPIzteX4VmpceeABLXV79ZQNa62bhbK0Co2AftmxGorwPuIN7oyfrw/GI4PEXjd2YdS8neES6gVzpHooDaayQThaXsbrCbIu26aunj23nbHIWUrvk02k9vCVrYuM4onAhsHLW9PowABD72icDOqVekpxpMxPphSwPHMmm6fwZ3kw7YYSSvb1yyBgmnCMFlI1JsJ1bWx5jSdIcH2u3+9zrLuIoGhJ+juun9To6n70zAYdkRhuWS9aaJW/w7mzP/MyADU0qDwUYQKoD/0n1i3eknwPsvJ2fhCiBqenStxMg8vaqmg3nJHjqv+d/Wekk0XWjWMvDLHr0tMBjMpcX/TSItvbj8XylZBZ/m6tjyjEFjlGFOpsFXSpchLQG15b0NfR4hhC4JuKqcJXo5c4wuf7ay7XTo+cCO/DIO0Id6YjxGiXHlq98HGQBq+mh2q2RC4J5r8AjYhRi7Eeo7ynyE97nVSoe3jYTSUJfgFih6rIjecvfUiv/FG+DtKN5wTqueyrFyQppmEm2lPZoHbC/+9KPkcl5wG5ycDZuXXC1cULVpK31oCW5G0BkxaUTc5ZrqTuCAB4PvBfh2PsCCt8U/Vd5AW2kmLdlw== alain.odea@gmail.com-2014-05-06",
+    "root_authorized_keys":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDIZddJAaHDsBQ+ISvGEXaGA0DQK1kDElFVkiYCL7n/t2bqp28PWwK6dquULlwUuECxIVPZ2Jp9pL9kE5vVac/1vhb/zkl3qAVGQnooqKcT86lzARS/V0mjrzjtIt28zmEzY1KVpXUsK8WncBp1BEDxV1I1ecPMU3rZBBTRcjkEjr66NBqZeZfIXMjsEwU/9CnvGnNbLvLg4y79zYivu3oAaudZhsxH1H8qg+UVK1PnZSjAhPf40Qp/fxPb2OwSktZI6e+NDP2fgqYJ//v1qpXKO122X4tdrsQ6VzhooNxdfNa6KtDN3qnQnhZdD+1JhWZe1YCUdw85Lgzu2PX6Vx4PWf2FAEo1pgx/7cP46poA3jnb2o6dkWlYiqRgvN+CSKJSbDXMlUu0O/xr6siHdDIJAFe9kvXYc/eDJJ4bm2W/WBqaglogQBgVLK0tnQVcmVRzHGH0GX82fWEWmyV7D1Qo3TYADRGVCRwKbkclXWkPOH6/tFkJSDqLuv+NCYLZZ8opNsizteZBAgNNX24T7Z8YKWwLEHOOEFDUlFA/B0hmMKl34B0sHbLK+nnBBYBcPQBKcyow2HRbXCj2dOUwbZZTFqOYrgkxin9XDMrbZHqOIUfLC/DFKsoCZ+XcjQ8Q9unoogLhJOiC7ugP4XDijNON27+Csln869jTWFekbi7WOQ== alain.odea@gmail.com_2014-12-14",
     "user-script" : "/usr/sbin/mdata-get root_authorized_keys > ~root/.ssh/authorized_keys ; /usr/sbin/mdata-get root_authorized_keys > ~admin/.ssh/authorized_keys"
   }
 }
