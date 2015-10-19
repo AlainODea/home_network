@@ -35,6 +35,9 @@ time ssh -A -o 'StrictHostKeyChecking no' -o 'UserKnownHostsFile /dev/null' zoto
   ssh-keyscan -H github.com >> ~/.ssh/known_hosts
   git clone git@github.com:AlainODea/blog.alainodea.com.git
   pushd blog.alainodea.com
+  git submodule init
+  git submodule update
+  popd
   cp config.in config
   psql zotonic_blog < zotonic_blog.sql
   popd
