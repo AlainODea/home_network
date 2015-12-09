@@ -19,10 +19,10 @@ chef1          IN A 192.168.2.6
 00-24-e8-46-70-fd IN A 192.168.2.7
 blog           IN A 192.168.2.8
 ghc-builder-x86-smartos IN A 192.168.2.9
-appletv        IN A 192.168.2.10
+fibreop-tv     IN A 192.168.2.10
 wii            IN A 192.168.2.11
 ps3            IN A 192.168.2.12
-fibreop-tv     IN A 192.168.2.13
+appletv        IN A 192.168.2.13
 claudia-imac   IN A 192.168.2.14
 alain-ubuntu   IN A 192.168.2.15
 claudia-iphone IN A 192.168.2.16
