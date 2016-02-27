@@ -39,7 +39,7 @@ alain-laptop-wifi IN A 192.168.2.26
 shelleys-ipad   IN A 192.168.2.27
 shelleys-iphone   IN A 192.168.2.28
 karens-iphone   IN A 192.168.2.29
-alains-old-iphone   IN A 192.168.2.30
+kalebs-iphone   IN A 192.168.2.30
 shanes-ipad         IN A 192.168.2.31
 kalebs-kano         IN A 192.168.2.32
 alains-ipad-mini4    IN A 192.168.2.33
@@ -49,6 +49,10 @@ conor-odea-moto     IN A 192.168.2.36
 andrea-perchard-iphone     IN A 192.168.2.37
 claudia-iphone5s           IN A 192.168.2.38
 mary-ring-laptop           IN A 192.168.2.39
+rylies-iphone  IN A 192.168.2.40
+olivers-iphone IN A 192.168.2.41
+claudias-kobo IN A 192.168.2.42
+alains-macbookpro IN A 192.168.2.43
 smartos01      IN CNAME b8-ac-6f-8f-3e-1b
 smartos02      IN CNAME bottom-t3500
 smartos03      IN CNAME 00-24-e8-46-70-fd
