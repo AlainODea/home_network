@@ -1,6 +1,6 @@
 {
   "brand": "joyent",
-  "image_uuid": "6c5f50a8-ea60-11e4-bd9d-c3e0b2054011",
+  "image_uuid": "f58ce4f2-beb9-11e5-bb02-e30246d71d58",
   "max_physical_memory": 2048,
   "max_swap": 4096,
   "quota": 100,
