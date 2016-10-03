@@ -13,9 +13,9 @@ localhost      IN A 127.0.0.1
 gateway        IN A 192.168.2.1
 ns1            IN A 192.168.2.2
 ns2            IN A 192.168.2.3
-ldap1          IN A 192.168.2.4
-ldap2          IN A 192.168.2.5
-chef1          IN A 192.168.2.6
+lb1            IN A 192.168.2.4
+lb2            IN A 192.168.2.5
+ghc-builder-x86-64 IN A 192.168.2.6
 00-24-e8-46-70-fd IN A 192.168.2.7
 blog           IN A 192.168.2.8
 ghc-builder-x86-smartos IN A 192.168.2.9
@@ -53,6 +53,7 @@ rylies-iphone  IN A 192.168.2.40
 olivers-iphone IN A 192.168.2.41
 claudias-kobo IN A 192.168.2.42
 alains-macbookpro IN A 192.168.2.43
+kathleens-laptop IN A 192.168.2.44
 smartos01      IN CNAME b8-ac-6f-8f-3e-1b
 smartos02      IN CNAME bottom-t3500
 smartos03      IN CNAME 00-24-e8-46-70-fd

@@ -8,7 +8,7 @@ $TTL 3h
 
   IN NS ns1.alainodea.com.
   IN NS ns2.alainodea.com.
-  IN A 192.168.2.8
+  IN A 192.168.2.4
 
 localhost IN A 127.0.0.1
 ns1            IN A 192.168.2.2
