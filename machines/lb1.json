@@ -1,0 +1,26 @@
+{
+    "brand": "joyent",
+    "image_uuid": "9fb3cf88-49a0-11e6-8407-0be269553017",
+    "max_physical_memory": 512,
+    "max_swap": 1024,
+    "quota": 20,
+    "hostname": "lb1.alainodea.local",
+    "dns_domain": "alainodea.local",
+    "resolvers": [
+        "192.168.2.2",
+        "192.168.2.3"
+    ],
+    "alias": "nginx-test",
+    "nics": [
+        {
+            "nic_tag": "external",
+            "gateway": "192.168.2.1",
+            "ip": "192.168.2.4",
+            "netmask": "255.255.255.0"
+        }
+    ],
+    "customer_metadata": {
+        "root_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA3G9fMd9zu4CTwdy2rQ3VcFgNENiXufV/zsenbcj7eSRN/aciPsZfsU7SC/sY8xL99D9li3/VXQpm46n5RO3ff5L8cXVzzwd6DYNQoEmBR3iVOTPIqGa4fIYEcVuq7z279bXd/WMrj2jUoDWQMncktrXB0smDdvSEx2HL9DMm9xmsAWUN/bVPoIXj6GAInr4+e0MUe6kPSaX2fu2t4Qixkwkjjlva4RiRPhCmrm4ExM9Dy+iLIpi0YIw6UT7RJXRgXm1BMJX8PqhcYf32cOUNG8SLMAqwV4GHNQmwTlEaL0EuQxqeTerr5M83MN149mcXQHAkmjM2Vml2ROweHsWB alain.odea@gmail.com_2016-05-26",
+        "user-script": "\/usr\/sbin\/mdata-get root_authorized_keys > ~root\/.ssh\/authorized_keys ; \/usr\/sbin\/mdata-get root_authorized_keys > ~admin\/.ssh\/authorized_keys"
+    }
+}

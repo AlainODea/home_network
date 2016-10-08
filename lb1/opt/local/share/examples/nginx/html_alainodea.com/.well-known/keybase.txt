@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/alainodea
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alainodea.com
+  * I am alainodea (https://keybase.io/alainodea) on keybase.
+  * I have a public key ASCi9K4NyAy0TWik3h0UX8e3lDtFB_VH68t6IkswitByDgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120a2f4ae0dc80cb44d68a4de1d145fc7b7943b4507f547ebcb7a224b308ad0720e0a",
+            "host": "keybase.io",
+            "kid": "0120a2f4ae0dc80cb44d68a4de1d145fc7b7943b4507f547ebcb7a224b308ad0720e0a",
+            "uid": "86816844485b8a7f399c6cb0b16f5d19",
+            "username": "alainodea"
+        },
+        "service": {
+            "hostname": "alainodea.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1475942331,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1475942227,
+        "hash": "625eb695e43250c2fcb73968d058b03bbe832c11c69566cc1c6a5dc855f869fc32e3d7bff8755ec9e966b17289b33cd6d76b109dc5186fea70f2577efd3d0090",
+        "seqno": 669545
+    },
+    "prev": "9736bdc38740af8f76ecd06e05fe3d4763b44874b04e5aabfe0b479f28d61689",
+    "seqno": 53,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgovSuDcgMtE1opN4dFF/Ht5Q7RQf1R+vLeiJLMIrQcg4Kp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTJmNGFlMGRjODBjYjQ0ZDY4YTRkZTFkMTQ1ZmM3Yjc5NDNiNDUwN2Y1NDdlYmNiN2EyMjRiMzA4YWQwNzIwZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTJmNGFlMGRjODBjYjQ0ZDY4YTRkZTFkMTQ1ZmM3Yjc5NDNiNDUwN2Y1NDdlYmNiN2EyMjRiMzA4YWQwNzIwZTBhIiwidWlkIjoiODY4MTY4NDQ0ODViOGE3ZjM5OWM2Y2IwYjE2ZjVkMTkiLCJ1c2VybmFtZSI6ImFsYWlub2RlYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWxhaW5vZGVhLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc1OTQyMzMxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzU5NDIyMjcsImhhc2giOiI2MjVlYjY5NWU0MzI1MGMyZmNiNzM5NjhkMDU4YjAzYmJlODMyYzExYzY5NTY2Y2MxYzZhNWRjODU1Zjg2OWZjMzJlM2Q3YmZmODc1NWVjOWU5NjZiMTcyODliMzNjZDZkNzZiMTA5ZGM1MTg2ZmVhNzBmMjU3N2VmZDNkMDA5MCIsInNlcW5vIjo2Njk1NDV9LCJwcmV2IjoiOTczNmJkYzM4NzQwYWY4Zjc2ZWNkMDZlMDVmZTNkNDc2M2I0NDg3NGIwNGU1YWFiZmUwYjQ3OWYyOGQ2MTY4OSIsInNlcW5vIjo1MywidGFnIjoic2lnbmF0dXJlIn2jc2lnxECRMIDZfbhX8bpWszTA+FXlueQPrZ+HWl1vTfm7GbbN/e2nvElMJp4hYSW8iUj8y9RfZCf+hBc3HXke3gVw/x0NqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgagi/J9PfqYZy9FUhP+Ri/CP12FOOSnBm4kdzAhJHdU6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alainodea
+
+==================================================================
