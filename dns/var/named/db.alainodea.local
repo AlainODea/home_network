@@ -20,7 +20,7 @@ ghc-builder-x86-64 IN A 192.168.2.6
 blog           IN A 192.168.2.8
 ghc-builder-x86-smartos IN A 192.168.2.9
 fibreop-tv     IN A 192.168.2.10
-wii            IN A 192.168.2.11
+houseimac      IN A 192.168.2.11
 ps3            IN A 192.168.2.12
 appletv        IN A 192.168.2.13
 claudia-imac   IN A 192.168.2.14
@@ -53,7 +53,7 @@ rylies-iphone  IN A 192.168.2.40
 olivers-iphone IN A 192.168.2.41
 claudias-kobo IN A 192.168.2.42
 alains-macbookpro IN A 192.168.2.43
-kathleens-laptop IN A 192.168.2.44
+rachels-ipad IN A 192.168.2.44
 smartos01      IN CNAME b8-ac-6f-8f-3e-1b
 smartos02      IN CNAME bottom-t3500
 smartos03      IN CNAME 00-24-e8-46-70-fd
