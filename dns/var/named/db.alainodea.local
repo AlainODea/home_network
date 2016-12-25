@@ -21,7 +21,7 @@ blog           IN A 192.168.2.8
 ghc-builder-x86-smartos IN A 192.168.2.9
 fibreop-tv     IN A 192.168.2.10
 houseimac      IN A 192.168.2.11
-ps3            IN A 192.168.2.12
+kaleb-kobo     IN A 192.168.2.12
 appletv        IN A 192.168.2.13
 claudia-imac   IN A 192.168.2.14
 alain-ubuntu   IN A 192.168.2.15
@@ -35,7 +35,7 @@ alainodea-xps-l521x IN A 192.168.2.22
 wiiu           IN A 192.168.2.23
 kaleb-3ds      IN A 192.168.2.24
 ghc-builder-x86-64-smartos IN A 192.168.2.25
-alain-laptop-wifi IN A 192.168.2.26
+alain-iphone-se IN A 192.168.2.26
 shelleys-ipad   IN A 192.168.2.27
 shelleys-iphone   IN A 192.168.2.28
 karens-iphone   IN A 192.168.2.29
