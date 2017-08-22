@@ -19,7 +19,7 @@
     }
   ],
   "customer_metadata": {
-    "root_authorized_keys":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDIZddJAaHDsBQ+ISvGEXaGA0DQK1kDElFVkiYCL7n/t2bqp28PWwK6dquULlwUuECxIVPZ2Jp9pL9kE5vVac/1vhb/zkl3qAVGQnooqKcT86lzARS/V0mjrzjtIt28zmEzY1KVpXUsK8WncBp1BEDxV1I1ecPMU3rZBBTRcjkEjr66NBqZeZfIXMjsEwU/9CnvGnNbLvLg4y79zYivu3oAaudZhsxH1H8qg+UVK1PnZSjAhPf40Qp/fxPb2OwSktZI6e+NDP2fgqYJ//v1qpXKO122X4tdrsQ6VzhooNxdfNa6KtDN3qnQnhZdD+1JhWZe1YCUdw85Lgzu2PX6Vx4PWf2FAEo1pgx/7cP46poA3jnb2o6dkWlYiqRgvN+CSKJSbDXMlUu0O/xr6siHdDIJAFe9kvXYc/eDJJ4bm2W/WBqaglogQBgVLK0tnQVcmVRzHGH0GX82fWEWmyV7D1Qo3TYADRGVCRwKbkclXWkPOH6/tFkJSDqLuv+NCYLZZ8opNsizteZBAgNNX24T7Z8YKWwLEHOOEFDUlFA/B0hmMKl34B0sHbLK+nnBBYBcPQBKcyow2HRbXCj2dOUwbZZTFqOYrgkxin9XDMrbZHqOIUfLC/DFKsoCZ+XcjQ8Q9unoogLhJOiC7ugP4XDijNON27+Csln869jTWFekbi7WOQ== alain.odea@gmail.com_2014-12-14",
+    "root_authorized_keys":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMxU/U1YneNlnxXF4KTCE8dioUj3crdQB6EZk2cEjv1r alain.odea@gmail.com_2017-07-06",
     "user-script" : "/usr/sbin/mdata-get root_authorized_keys > ~root/.ssh/authorized_keys ; /usr/sbin/mdata-get root_authorized_keys > ~admin/.ssh/authorized_keys"
   }
 }

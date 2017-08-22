@@ -54,6 +54,16 @@ olivers-iphone IN A 192.168.2.41
 claudias-kobo IN A 192.168.2.42
 alains-macbookpro IN A 192.168.2.43
 rachels-ipad IN A 192.168.2.44
+pkgbuild IN A 192.168.2.45
+liams-3ds IN A 192.168.2.46
+andrea-galaxy IN A 192.168.2.47
+annas-laptop IN A 192.168.2.48
+olivers-3ds IN A 192.168.2.49
+shelleys-ipad-pro IN A 192.168.2.50
+fionas-iphone5c IN A 192.168.2.51
+alexandras-ipad-mini IN A 192.168.2.52
+pauls-iphone IN A 192.168.2.53
+claudias-iphone-se IN A 192.168.2.54
 smartos01      IN CNAME b8-ac-6f-8f-3e-1b
 smartos02      IN CNAME bottom-t3500
-smartos03      IN CNAME 00-24-e8-46-70-fd
+smartos03      IN CNAME 00-24-e8-2d-ed-05

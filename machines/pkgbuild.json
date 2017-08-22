@@ -1,0 +1,27 @@
+{
+    "brand": "joyent",
+    "image_uuid": "6f52b344-2047-11e7-80a6-433c0fa4e424",
+    "alias": "pkgbuild",
+    "max_physical_memory": 4096,
+    "max_swap": 8192,
+    "quota": 16,
+    "resolvers": [
+        "192.168.2.2",
+        "192.168.2.3"
+    ],
+    "hostname": "pkgbuild.alainodea.local",
+    "dns_domain": "alainodea.local",
+    "nics": [
+        {
+            "nic_tag": "external",
+            "gateway": "192.168.2.1",
+            "ip": "192.168.2.45",
+            "netmask": "255.255.255.0"
+
+        }
+    ],
+    "customer_metadata": {
+        "root_authorized_keys":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMxU/U1YneNlnxXF4KTCE8dioUj3crdQB6EZk2cEjv1r alain.odea@gmail.com_2017-07-06",
+        "user-script" : "/usr/sbin/mdata-get root_authorized_keys > ~root/.ssh/authorized_keys ; /usr/sbin/mdata-get root_authorized_keys > ~admin/.ssh/authorized_keys"
+  }
+}
