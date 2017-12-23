@@ -4,7 +4,7 @@
     "max_physical_memory": 512,
     "max_swap": 1024,
     "quota": 20,
-    "hostname": "lb1.alainodea.local",
+    "hostname": "lb2.alainodea.local",
     "dns_domain": "alainodea.local",
     "resolvers": [
         "192.168.2.2",
@@ -15,7 +15,7 @@
         {
             "nic_tag": "external",
             "gateway": "192.168.2.1",
-            "ip": "192.168.2.4",
+            "ip": "192.168.2.5",
             "netmask": "255.255.255.0"
         }
     ],
