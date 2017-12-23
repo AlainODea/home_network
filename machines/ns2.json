@@ -1,6 +1,6 @@
 {
   "brand": "joyent",
-  "image_uuid": "f58ce4f2-beb9-11e5-bb02-e30246d71d58",
+  "image_uuid": "bafa230e-e6ea-11e6-8438-c72c10ff2d1f",
   "max_physical_memory": 128,
   "hostname": "ns2.alainodea.local",
   "dns_domain": "alainodea.local",
